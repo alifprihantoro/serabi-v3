@@ -1,3 +1,4 @@
 {
-    "/src/static/main.css": "/src/static/main.css"
+    "/static/main.css": "/static/main.css",
+    "/static/main.js": "/static/main.js"
 }

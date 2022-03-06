@@ -107,3 +107,5 @@ dist
 static
 resources
 archetypes
+public
+.hugo_build.lock

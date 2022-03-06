@@ -1,9 +1,8 @@
 module.exports = {
-    content: ["./layouts/**/*.{html,js}", "./index.html"],
-    theme: {
-      extend: {},
-    },
-    plugins: [
-    ],
-  }
-  
+  content: ['./layouts/**/*.{html,js}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+

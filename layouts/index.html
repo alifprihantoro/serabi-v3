@@ -8,19 +8,11 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     {{ partial "head.html" . }}
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
   </head>
-  <body class="bg-red-50 ">
-<div class="bg-blue-900 text-white uppercase text-center py-5">hello jai</div>
-      {{ partial "header.html" . }}
-      <!-- {{ partial "nav.html" . }} -->
-      <!-- pages -->
-      <!-- {{ partial "pages/home.html" . }} -->
-      <!-- {{ partial "pages/about.html" . }} -->
-      <!-- {{ partial "pages/contact.html" . }} -->
-      <!-- {{ partial "pages/menu.html" . }} -->
-      <!-- {{ partial "pages/album.html" . }} -->
-      
-      <!-- {{ partial "waves.html" . }} -->
+  <body>
+  {{ partial "main-nav.html" . }}
+  {{ partial "second-nav.html" . }}
+  <script src="main.js"></script>
   </body>
 </html>
