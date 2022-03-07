@@ -1,29 +1,28 @@
-# serabi
-Hai, I'm Alief Prihantoro.
+# Serabi Kocor Ngampin Ambarawa (Bicor)
+[id]
+Web ini ditujukan sebagai media promosi warung serabi Ibu saya. Dimana disini saya menggunakan beberapa technology web antara lain :
+[en]
+This web I use for promote my mother traditional restaurant. Where I use some tech for this project :
+- Hugo
+- NodeJs
+- Tailwind css
+- Postcss
+- Laravel Mix
 
-This website is landing page only.
-
-Theme : food
-
-Color : green
-
-This website use for my mother for selling tradisional food.
-
-Feature :
-- SPA(maybe)
-- PWA
-- SEO
-- Maps
-- Navigate
-
-Tech :
-- SCSS/CSS
-- HTML5
-- ES6/JS
-- JSON
-- HUGO
-- NETLIFY
-
-Other :
-- NVIM (text editor)
-
+## How Install
+```bash
+apt install hugo nodejs git -y
+npm install --global yarn
+git clone https://github.com/alifprihantoro/serabi-v3
+cd serabi-v3
+yarn install
+```
+### How start
+```bash
+# mode compile
+npx mix
+# mode watch
+npx mix watch
+```
+### Struktur dir
+- Layouts : use for 
