@@ -8,7 +8,7 @@ mix
   .options({
     postCss: [tailwindcss('./tailwind.config.js')],
   })
-  .minify('./assets/js/main.js', './public/main.js');
+  .babel(['./assets/js/icon.js','./assets/js/popup.js'], './public/main.js')
 // .imgs({
 //   source: 'assets/images',
 //   destination: 'assets/images',
