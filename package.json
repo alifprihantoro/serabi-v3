@@ -21,6 +21,6 @@
   "author": "alifprihantoro <alifmuryp@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "go": "npx mix --production watch"
+    "go": "npx mix watch"
   }
 }

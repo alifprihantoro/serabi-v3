@@ -109,3 +109,5 @@ resources
 archetypes
 public
 .hugo_build.lock
+assets/bundle.js
+main.js

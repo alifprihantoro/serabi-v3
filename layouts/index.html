@@ -15,6 +15,7 @@
       {{ partial "nav.html" . }}
       {{ partial "top.html" . }}
     </div>
-    <script src="main.js"></script>
+    {{ $js := resources.Get "main.js" | minify }}
+    <script src="{{ $js.Permalink }}"></script>
   </body>
 </html>
