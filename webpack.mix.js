@@ -4,11 +4,11 @@ const { exec } = require('child_process');
 // require('laravel-mix-simple-image-processing');
 
 mix
-  .sass('./assets/scss/main.scss', './static/main.css')
+  .sass('./assets/scss/main.scss', './public/main.css')
   .options({
     postCss: [tailwindcss('./tailwind.config.js')],
   })
-  .minify('./assets/js/main.js', './static/main.js');
+  .minify('./assets/js/main.js', './public/main.js');
 // .imgs({
 //   source: 'assets/images',
 //   destination: 'assets/images',
@@ -16,5 +16,6 @@ mix
 //   thumbnailsSizes: [300, 600], // Generate thumbnails with 300px and 600px width.
 // });
 
-exec('hugo serve');
-exec('cp assets/static/* static/');
+exec('hugo --watch --minify');
+exec('live-server public');
+// exec('cp assets/static/* static/');
