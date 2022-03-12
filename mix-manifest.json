@@ -1,4 +1,4 @@
 {
-    "/static/main.css": "/static/main.css",
-    "/static/main.js": "/static/main.js"
+    "/public/main.css": "/public/main.css",
+    "/public/main.js": "/public/main.js"
 }

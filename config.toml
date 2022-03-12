@@ -1,4 +1,5 @@
-baseURL = 'https://serabikocorbuyuni.my.id/'
+# baseURL = 'https://serabikocorbuyuni.my.id/'
+baseURL = 'http://localhost:8080/'
 languageCode = 'en-us'
 title = 'Serabi Kocor Bu Yuni'
 icon = "/favicon.ico"
