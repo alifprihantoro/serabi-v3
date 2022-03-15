@@ -1,0 +1,15 @@
+# [[menu.follow]]
+# identifier = "@serabikocorbuyuni"
+# name = "fb"
+# url = "https://facebook.com/serabikocorbuyuni"
+# weight = 1
+# [[menu.follow]]
+# identifier = "@serabikocorbuyuni"
+# name = "ig"
+# url = "https://instagram.com/serabikocorbuyuni"
+# weight = 2
+# [[menu.follow]]
+# identifier = "@serabikocorbuyuni"
+# name = "tw"
+# url = "https://twitter.com/serabibuyuni"
+# weight = 3
