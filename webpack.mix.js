@@ -8,13 +8,5 @@ mix
     postCss: [tailwindcss('./tailwind.config.js')],
   })
   .babel(['./assets/js/icon.js','./assets/js/popup.js'], './assets/main.js')
-// .imgs({
-//   source: 'assets/images',
-//   destination: 'assets/images',
-//   // ... other optional parameters
-//   thumbnailsSizes: [300, 600], // Generate thumbnails with 300px and 600px width.
-// });
 
 exec('hugo server --minify --destination public');
-// exec('live-server public');
-// exec('cp assets/static/* static/');

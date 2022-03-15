@@ -1,10 +1,12 @@
-<div class=" ml-5 ">
+<div class=" ml-5 relative ">
   <h1 class=" mt-5 font-bold text-5xl">Serabi Kocor Bu Yuni</h1>
   <h2 class=" mt-5 font-medium text-xl">Menyajikan kualitas serabi yang enak dan jumbo</h2>
   <!-- image serabi -->
 {{ $serabi := resources.Get "/img/serabi.png" }}
 {{ $serabi2 := $serabi.Fit "600x400" }}
-  <img src="{{ $serabi2.RelPermalink }}" alt=""/>
+<a href="{{ $serabi.RelPermalink }}">
+  <img class="absolute top-0 right-0 -translate-y-12 w-[220px] " src="{{ $serabi2.RelPermalink }}" alt=""/>
+</a>
   <!-- btn top -->
   <div class=" flex mt-5">
     <button class="btn btn-main"><a href="/">Pesan Sekarang</a></button>

@@ -1,25 +1,16 @@
-[[menu.nav]]
-identifier = "Home"
-name = "ihome"
-url = "#"
-weight = 1
-[[menu.nav]]
+[[nav]]
 identifier = "About"
 name = "iabout"
 url = "#about"
-weight = 2
-[[menu.nav]]
+[[nav]]
 identifier = "Contact"
 name = "tlp"
 url = "#contact"
-weight = 3
-[[menu.nav]]
+[[nav]]
 identifier = "Menu"
 name = "imenu"
 url = "#menu"
-weight = 4
-[[menu.nav]]
+[[nav]]
 identifier = "Album"
 name = "ialbum"
 url = "#album"
-weight = 5

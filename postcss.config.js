@@ -5,9 +5,9 @@ module.exports = {
     require('tailwindcss/nesting'),
     require('tailwindcss'),
     require('autoprefixer'),
+    // purgecss({
+    //   content: ['./layouts/**/*.html']
+    // }),
     require('cssnano'),
-    purgecss({
-      content: ['./layouts/**/*.html']
-    }),
   ]
 }
