@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body class="bg-main-2 bg-opacity-30 scroll-smooth h-[500vh] ">
-    <div class="h-[300vh] relative max-w-6xl m-auto bg-main-2 bg-opacity-50 py-6">
+    <div class="h-[300vh] relative max-w-6xl m-auto bg-main-2 bg-opacity-50">
       {{ partial "nav.html" . }}
-      {{ partial "top.html" . }}
+      <!-- {{ partial "top.html" . }} -->
       {{ partial "post.html" . }}
     </div>
     {{ $js := resources.Get "main.js" | minify }}
