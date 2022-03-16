@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="bg-main-2 bg-opacity-30 scroll-smooth h-[500vh] ">
+    <div class="h-[300vh] relative max-w-6xl m-auto bg-main-2 bg-opacity-50">
+      {{ partial "nav.html" . }}
+      <!-- {{ partial "top.html" . }} -->
+      {{ partial "post.html" . }}
+    </div>
+    {{ $js := resources.Get "main.js" | minify }}
+    <script src="{{ $js.Permalink }}"></script>
+  </body>
+</html>

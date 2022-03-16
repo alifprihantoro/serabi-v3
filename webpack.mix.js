@@ -3,7 +3,7 @@ const tailwindcss = require('tailwindcss'); /* Add this line at the top */
 const { exec } = require('child_process');
 // require('laravel-mix-simple-image-processing');
 mix
-  .sass('./assets/scss/main.scss', './public/main.css')
+  .sass('./assets/scss/post/main.scss', './public/post.css')
   .options({
     postCss: [tailwindcss('./tailwind.config.js')],
   })
