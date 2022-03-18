@@ -110,4 +110,7 @@ archetypes
 public
 .hugo_build.lock
 assets/bundle.js
+assets/main.js
+assets/post.js
+assets/home.js
 main.js
