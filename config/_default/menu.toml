@@ -19,9 +19,9 @@ name = "imenu"
 url = "#menu"
 weight = 4
 [[nav]]
-identifier = "Album"
+identifier = "Blog"
 name = "ialbum"
-url = "#album"
+url = "/blog"
 weight = 5
 
 [[post]]

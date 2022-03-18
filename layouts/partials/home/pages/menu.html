@@ -1,8 +1,13 @@
 <div class="menu">
-  <h2>Album</h2>
+  <h2>Menu</h2>
   <h3 class="desk">Taruh cursor mouse ke gambar</h3>
   <h3 class="mobile">klik gambar</h3>
   <div class="cover">
 {{ with .Site.GetPage "/menu.md" }}{{ .Content | safeHTML }}{{ end }}
+<div class=" flex place-items-center m-auto">
+<div class="btn mt-[100px] md:mt-0">
+  <a class="pl" href="#album">See all Album</a>
+</div>
+</div>
   </div>
 </div>
