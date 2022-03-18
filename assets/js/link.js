@@ -1,6 +1,6 @@
 const ccls = ()=>{
 	// The URL changed...
-  const link = this.window.location.href
+  const link = window.location.href
   // console.log(link)
   const cls = link.split("#")[1]
   // console.log(cls)
@@ -17,21 +17,3 @@ ccls()
 window.addEventListener('popstate', function () {
 ccls()
 });
-
-
-
-
-
-
-//sw
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}

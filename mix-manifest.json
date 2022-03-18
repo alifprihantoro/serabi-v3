@@ -1,4 +1,6 @@
 {
     "/public/home.css": "/public/home.css",
-    "/public/post.css": "/public/post.css"
+    "/public/post.css": "/public/post.css",
+    "/assets/main.js": "/assets/main.js",
+    "/assets/home.js": "/assets/home.js"
 }

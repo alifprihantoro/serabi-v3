@@ -1,16 +1,42 @@
 [[nav]]
+identifier = "Home"
+name = "ihome"
+url = "#"
+weight = 1
+[[nav]]
 identifier = "About"
 name = "iabout"
 url = "#about"
+weight = 2
 [[nav]]
 identifier = "Contact"
 name = "tlp"
 url = "#contact"
+weight = 3
 [[nav]]
+identifier = "Menu"
+name = "imenu"
+url = "#menu"
+weight = 4
+[[nav]]
+identifier = "Album"
+name = "ialbum"
+url = "#album"
+weight = 5
+
+[[post]]
+identifier = "About"
+name = "iabout"
+url = "#about"
+[[post]]
+identifier = "Contact"
+name = "tlp"
+url = "#contact"
+[[post]]
 identifier = "Blog"
 name = "imenu"
 url = "#Blog"
-[[nav]]
+[[post]]
 identifier = "Gallery"
 name = "ialbum"
 url = "#Gallery"

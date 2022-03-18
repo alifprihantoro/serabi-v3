@@ -17,11 +17,7 @@ mix.sass('./assets/scss/post/main.scss', 'public/post.css', {}, [
 });
 
 // style home
-mix.sass('./assets/scss/home/main.scss', 'public/home.css', {}, [
-    tailwindcss('./tailwind.config.home.js')
-]).options({
-    processCssUrls: false,
-});
+mix.sass('./assets/scss/home/main.scss', 'public/home.css');
 
 // script
 mix

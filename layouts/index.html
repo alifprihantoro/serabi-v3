@@ -28,7 +28,7 @@
       </div>
     {{ $jsMain := resources.Get "main.js" | minify }}
     <script src="{{ $jsMain.Permalink }}"></script>
-    {{ $jsHome := resources.Get "home.js" | minify }}
+    {{ $jsHome := resources.Get "home.js" | minify  }}
     <script src="{{ $jsHome.Permalink }}"></script>
   </body>
 </html>
