@@ -1,6 +1,6 @@
 ---
 title: "Album"
-slug: [album](album)
+slug: album
 date: 2022-01-02T19:20:59+07:00
 lastmod: 2022-01-02T19:20:59+07:00
 draft: false
