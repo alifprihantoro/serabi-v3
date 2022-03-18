@@ -15,6 +15,13 @@
       <div class="main">
         {{ partial "home/header.html" . }}
         {{ partial "home/follow.html" . }}
+    {{ with .Resources.ByType "image" }}
+{{ range . }}
+{{ .RelPermalink }}
+{{ end }}
+{{ end }}
+{{ $image := $resource.Resize "600x" }}
+{{ $image.RelPermalink }}
         {{ partial "home/footer.html" . }}
       </div>
       {{ partial "home/waves.html" . }}
