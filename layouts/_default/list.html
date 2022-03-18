@@ -14,6 +14,7 @@
     <div class="h-[300vh] relative max-w-6xl m-auto bg-main-2 bg-opacity-50">
       <!-- list -->
       {{ partial "post/nav.html" . }}
+      {{ partial "post/list.html" . }}
     </div>
     {{ $js := resources.Get "main.js" | minify }}
     <script src="{{ $js.Permalink }}"></script>
