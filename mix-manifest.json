@@ -2,5 +2,6 @@
     "/public/home.css": "/public/home.css",
     "/public/post.css": "/public/post.css",
     "/assets/main.js": "/assets/main.js",
+    "/assets/post.js": "/assets/post.js",
     "/assets/home.js": "/assets/home.js"
 }

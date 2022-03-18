@@ -8,6 +8,19 @@ enableGitInfo = true
 enableRobotsTXT = true
 canonifyURLs = true
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    pages = ["HTML", "RSS", "JSON"]
+    blog = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tags = "tags"
+
+[permalinks]
+  blog = "/blog/:slug/"
+  pages = "/pages/:slug/"
+
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = [":git", "lastmod", "date", "publishDate"]

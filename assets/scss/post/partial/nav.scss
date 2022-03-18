@@ -1,3 +1,6 @@
-.navlink{
-    @apply flex flex-col flex-grow items-center justify-center overflow-hidden text-sm transition-colors duration-100 ease-in-out py-5 bg-main-2;
-}
+nav svg:first-child {
+    width: 100px;
+    fill: white;
+    height: 45px;
+    transform: translate(5px, -15px);
+  }

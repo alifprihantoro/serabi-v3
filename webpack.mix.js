@@ -14,14 +14,17 @@ mix.sass('./assets/scss/post/main.scss', 'public/post.css', {}, [
     tailwindcss('./tailwind.config.post.js')
 ]).options({
     processCssUrls: false,
-});
-
+})
 // style home
-mix.sass('./assets/scss/home/main.scss', 'public/home.css');
-
-// script
-mix
+.sass('./assets/scss/home/main.scss', 'public/home.css', {}, [
+    tailwindcss('./tailwind.config.home.js')
+]).options({
+    processCssUrls: false,
+})
+// main script
   .babel(['./assets/js/icon.js','./assets/js/popup.js'], './assets/main.js')
+  .babel(['./assets/js/nav.js'], './assets/post.js')
+// home script
   .babel(['./assets/js/link.js'], './assets/home.js')
 
 // hugo

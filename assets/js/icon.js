@@ -4,7 +4,7 @@ const $btnGet =
       for (let i = 0; i < $btn(classname).length; i++) {
         let btn = $btn(classname)[i]
             // console.log(btn)
-            const div = document.createElement("div");
+            const div = document.createElement("span");
         div.innerHTML = content
         btn.appendChild(div);
       }
