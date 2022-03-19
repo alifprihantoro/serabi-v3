@@ -32,10 +32,6 @@
 }
 
 // hover
-.myread a {
-  &:hover {
+.myread a:hover {
     transform: translate(10px, -10px);
-    color: #333;
   }
-  color: red;
-}
