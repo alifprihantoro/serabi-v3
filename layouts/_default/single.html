@@ -31,5 +31,7 @@
         {{ partial "post/about.html" . }}
       </div>
     </div>
+    {{ $js := resources.Get "main.js" | minify }}
+    <script src="{{ $js.Permalink }}"></script>
   </body>
 </html>
