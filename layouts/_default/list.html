@@ -10,11 +10,12 @@
     {{ partial "head.html" . }}
     <link rel="stylesheet" href="/post.css" />
   </head>
-  <body class="bg-main-2 bg-opacity-30 scroll-smooth">
+  <body class="bg-main-2 bg-opacity-30">
       {{ partial "post/nav.html" . }}
-    <div class="relative max-w-6xl m-auto bg-main-2 bg-opacity-50">
+    <div class="m-auto bg-main-2 bg-opacity-50">
       <!-- list -->
       {{ partial "post/list.html" . }}
+      {{ partial "post/footer.html" . }}
     </div>
     {{ $js := resources.Get "main.js" | minify }}
     <script src="{{ $js.Permalink }}"></script>
