@@ -16,6 +16,12 @@
   text-align: left;
 }
 
+@screen md {
+  .myread{
+  grid-template-columns: auto auto;
+  }
+}
+
 // tanggal
 .myread .date {
   margin-right: 30px;
