@@ -1,6 +1,6 @@
 <h2 class="follow">Follow on :</h2>
 <div class="btn follow">
-  <a class="fb px-5 bg-red-900" href="https://facebook.com/serabikocorbuyuni" ></a>
-  <a class="ig px-5 bg-red-900" href="https://instagram.com/serabikocorbuyuni"></a>
-  <a class="tw px-5 bg-red-900" href="https://twitter.com/serabibuyuni"></a>
+  {{ range .Site.Menus.sosmed.Sort.ByWeight }}
+    <a  href="{{.URL}}" class="{{ .Identifier }}"></a>
+  {{end}}
 </div>
