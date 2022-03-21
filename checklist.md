@@ -1,6 +1,18 @@
 post :
 - [ ] Contact
-- [ ] follow
+- [X] follow
 - [ ] next prev
-- [ ] disqus comment
-- [ ] 
+- [X] disqus comment
+- [ ] penulis
+
+content :
+- [ ] about :
+  - [ ] serabi
+  - [ ] ambarawa
+  - [ ] palagan
+  - [ ] stasiun
+  - [ ] rawa pening
+  - [ ] candi gedhong songo
+  - [ ] 
+- [ ] digital marketing
+- [ ] seo
