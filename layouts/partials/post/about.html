@@ -1,19 +1,19 @@
-<div class="card bg-main-1 flex flex-col items-center justify-center p-4 shadow-lg rounded-2xl w-64">
-    <img src="/img/serabi.min.png" class="w-full" alt="profile">
-<div class="name text-gray-800 text-2xl font-medium mt-4 ">
-      <p>Simp</p>
-</div>
-<div class="username text-gray-500">
-      <p>@simpyy</p>
-</div>
-<div class="work text-gray-700 mt-4">
-     <p>Front-end developer 🧑‍💻</p>
-</div>
-<div class="w-full mt-8">
-        <div>
-Follow
-        </div>
-        {{ partial "home/follow.html" . }}
-</div>
-
+<div
+  class="card bg-main-1 flex flex-col items-center justify-center p-4 shadow-lg rounded-2xl w-[300px]"
+>
+  <img src="/img/serabi.min.png" class="w-full" alt="profile" />
+  <div class="name text-gray-800 text-2xl font-medium mt-4">
+    <p>Serabi Kocor Bu Yuni</p>
+  </div>
+  <div class="text-center text-gray-500">
+    <p>Hai, apa kalian ingin mencoba kuliner serabi khas ngampin ambarawa? Mampir ke tempat kami ya, bisa dicoba kualitas serabi kami.</p>
+  </div>
+  <div class="w-full mt-8">
+    <h2 class="text-center w-full border border-solid border-white leading-[0]">
+      <span class="bg-main-1 px-3"> Follow </span>
+    </h2>
+    <div class="w-fit m-auto">
+    {{ partial "post/sosmed.html" . }}
+    </div>
+  </div>
 </div>

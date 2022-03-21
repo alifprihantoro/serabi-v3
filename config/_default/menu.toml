@@ -1,51 +1,67 @@
 [[nav]]
-identifier = "Home"
-name = "ihome"
+name = "Home"
+identifier = "ihome"
 url = "#"
 weight = 1
 [[nav]]
-identifier = "About"
-name = "iabout"
+name = "About"
+identifier = "iabout"
 url = "#about"
 weight = 2
 [[nav]]
-identifier = "Contact"
-name = "tlp"
+name = "Contact"
+identifier = "tlp"
 url = "#contact"
 weight = 3
 [[nav]]
-identifier = "Menu"
-name = "imenu"
+name = "Menu"
+identifier = "imenu"
 url = "#menu"
 weight = 4
 [[nav]]
-identifier = "Blog"
-name = "ialbum"
+name = "Blog"
+identifier = "ialbum"
 url = "/blog"
 weight = 5
 
 [[post]]
-identifier = "Home"
-name = "ihome"
+name = "Home"
+identifier = "ihome"
 url = "/"
 weight = 1
 [[post]]
-identifier = "About"
-name = "iabout"
+name = "About"
+identifier = "iabout"
 url = "#about"
 weight = 2
 [[post]]
-identifier = "Contact"
-name = "tlp"
+name = "Contact"
+identifier = "tlp"
 url = "#contact"
 weight = 3
 [[post]]
-identifier = "Blog"
-name = "imenu"
+name = "Blog"
+identifier = "imenu"
 url = "#Blog"
 weight = 4
 [[post]]
-identifier = "Gallery"
-name = "ialbum"
+name = "Gallery"
+identifier = "ialbum"
 url = "#Gallery"
 weight = 5
+
+[[sosmed]]
+identifier = "fb"
+name = "@serabikocorbuyuni"
+url = "facebook.com/serabikocorbuyuni"
+weight = 1
+[[sosmed]]
+identifier = "ig"
+name = "@serabikocorbuyuni"
+url = "instagram.com/serabikocorbuyuni"
+weight = 2
+[[sosmed]]
+identifier = "tw"
+name = "@serabikocorbuyuni"
+url = "twitter.com/serabibuyuni"
+weight = 3
