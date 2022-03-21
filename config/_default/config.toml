@@ -2,6 +2,7 @@
 languageCode = 'en-us'
 title = 'Serabi Kocor Bu Yuni'
 icon = "/favicon.ico"
+DisqusShortname="serabikocorbuyuni"
 
 enableEmoji = true
 enableGitInfo = true

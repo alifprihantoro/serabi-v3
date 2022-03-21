@@ -1,9 +1,15 @@
 <nav
   class="bg-main-1 border-gray-200 px-2 sm:px-4 py-2.5 m-auto max-w-[100vw] sticky top-0 z-[999]"
 >
+{{- if .IsHome -}}
   <div
     class="container flex flex-wrap justify-between items-center mx-auto max-w-6xl"
   >
+{{- else -}}
+  <div
+    class="container flex flex-wrap justify-between items-center mx-auto max-w-[791.989px]"
+  >
+{{- end -}}
     <a href="#" class="flex items-center">
       <span class="logo mr-3 h-6 sm:h-10" alt="Flowbite Logo"></span>
     </a>
@@ -55,7 +61,7 @@
         {{ range .Site.Menus.post.Sort.ByWeight }}
         <li>
           <a
-            class="block py-2 pr-4 pl-3 text-white border-b border-green-100 md:border-none hover:bg-gray-800 hover:font-bold md:p-0"
+            class="block py-2 pr-4 pl-3 text-white border-b border-green-100 md:border-none hover:font-bold md:p-0"
             href="{{.URL}}"
             >{{.Identifier}}
           </a>

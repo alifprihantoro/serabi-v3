@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth selection:bg-main-1">
+<html lang="en" class="scroll-smooth selection:bg-main-2">
   <head itemscope itemtype="{{ .Site.BaseURL }}">
     <meta charset="utf-8" />
     <meta
@@ -12,11 +12,11 @@
   </head>
   <body class="bg-main-2 bg-opacity-30">
     {{ partial "post/nav.html" . }}
-    <div class="m-auto max-w-6xl md:flex md:justify-between">
+    <div class="m-auto w-fit md:flex md:gap-1">
       <div class="max-w-md">
         <!-- post header -->
         {{ partial "post/header.html" . }}
-        <article class="bg-main-1 rounded-xl p-5">
+        <article class="bg-main-2 rounded-xl p-5">
           <!-- title -->
           <h1 class="text-center font-extrabold font-sans text-xl">
             {{ .Title }}
@@ -24,12 +24,19 @@
           <hr class="my-2 border-main-1" />
           {{ .Content | safeHTML }}
         </article>
+        <!-- footer post -->
+        {{ if eq .Section "pages" }} {{else}} {{ partial "post/post-footer.html" . }}
+        {{ partial "post/related.html" . }} {{end}}
       </div>
       <!-- sidebar -->
       <div class="p-5">
         <!-- profile -->
         {{ partial "post/about.html" . }}
       </div>
+    </div>
+    <div class=" max-w-[791.989px] m-auto">
+
+        {{ partial "post/footer.html" . }}
     </div>
     {{ $js := resources.Get "main.js" | minify }}
     <script src="{{ $js.Permalink }}"></script>

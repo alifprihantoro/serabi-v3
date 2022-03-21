@@ -2,4 +2,5 @@ post :
 - [ ] Contact
 - [ ] follow
 - [ ] next prev
-- [ ] comment
+- [ ] disqus comment
+- [ ] 
