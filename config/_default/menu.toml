@@ -65,3 +65,19 @@ identifier = "tw"
 name = "@serabikocorbuyuni"
 url = "twitter.com/serabibuyuni"
 weight = 3
+
+[[sosmed2]]
+identifier = "fb"
+name = "@serabikocorbuyuni"
+url = "facebook.com/serabikocorbuyuni"
+weight = 1
+[[sosmed2]]
+identifier = "ig"
+name = "@serabikocorbuyuni"
+url = "instagram.com/serabikocorbuyuni"
+weight = 2
+[[sosmed2]]
+identifier = "tw"
+name = "@serabikocorbuyuni"
+url = "twitter.com/serabibuyuni"
+weight = 3

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth selection:bg-main-2">
+<html lang="en" class="scroll-smooth selection:bg-main-1">
   <head itemscope itemtype="{{ .Site.BaseURL }}">
     <meta charset="utf-8" />
     <meta
@@ -31,6 +31,7 @@
       <!-- sidebar -->
       <div class="p-5">
         <!-- profile -->
+        {{ partial "post/about-writer.html" . }}
         {{ partial "post/about.html" . }}
       </div>
     </div>
