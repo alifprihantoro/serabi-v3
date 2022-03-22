@@ -13,9 +13,10 @@
   <body class="bg-main-2 bg-opacity-30">
     {{ partial "post/nav.html" . }}
     <div class="m-auto w-fit md:flex md:gap-1">
-      <div class="max-w-md">
+      <div class="max-w-[100vw] md:max-w-md">
         <!-- post header -->
         {{ partial "post/header.html" . }}
+          <!--   -->
         <article class="bg-main-2 rounded-xl p-5">
           <!-- title -->
           <h1 class="text-center font-extrabold font-sans text-xl">
@@ -35,7 +36,7 @@
         {{ partial "post/about.html" . }}
       </div>
     </div>
-    <div class=" max-w-[791.989px] m-auto">
+    <div class=" md:max-w-[791.989px] m-auto">
 
         {{ partial "post/footer.html" . }}
     </div>

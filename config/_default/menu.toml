@@ -32,22 +32,22 @@ weight = 1
 [[post]]
 identifier = "About"
 name = "iabout"
-url = "#about"
+url = "/about"
 weight = 2
 [[post]]
 identifier = "Contact"
 name = "tlp"
-url = "#contact"
+url = "/contact"
 weight = 3
 [[post]]
 identifier = "Blog"
 name = "imenu"
-url = "#Blog"
+url = "/Blog"
 weight = 4
 [[post]]
-identifier = "Gallery"
-name = "ialbum"
-url = "#Gallery"
+identifier = "Menu Kuliner"
+name = "imenu"
+url = "/#Menu"
 weight = 5
 
 [[sosmed]]
@@ -68,16 +68,16 @@ weight = 3
 
 [[sosmed2]]
 identifier = "fb"
-name = "@serabikocorbuyuni"
+name = "@alifprihantoro"
 url = "facebook.com/serabikocorbuyuni"
 weight = 1
 [[sosmed2]]
 identifier = "ig"
-name = "@serabikocorbuyuni"
+name = "@alifprihantoro"
 url = "instagram.com/serabikocorbuyuni"
 weight = 2
 [[sosmed2]]
 identifier = "tw"
-name = "@serabikocorbuyuni"
+name = "@alifprihantoro"
 url = "twitter.com/serabibuyuni"
 weight = 3
