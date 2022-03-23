@@ -34,3 +34,11 @@ copyright = 'This work is licensed under a Creative Commons Attribution-ShareAli
   changefreq = 'monthly'
   filename = 'sitemap.xml'
   priority = 0.5
+
+[params]
+profile_serabi = "/img/serabi"
+profile_muryp = "/img/muryp"
+description_serabi = "Hai, apa kalian ingin mencoba kuliner serabi khas ngampin ambarawa? Mampir ke tempat kami ya, bisa dicoba kualitas serabi kami."
+description_writer = "Front End Developer"
+name_toko = "Serabi Kocor Bu Yuni"
+name_writer = "Muryp"

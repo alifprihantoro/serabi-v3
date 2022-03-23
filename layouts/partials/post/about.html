@@ -6,10 +6,10 @@
     </h2>
   <img src="/img/serabi.min.png" class="w-full" alt="profile" />
   <div class="name text-gray-800 text-2xl font-medium mt-4">
-    <p>Serabi Kocor Bu Yuni</p>
+    <p>{{ .Site.Params.name_toko }}</p>
   </div>
   <div class="text-center text-gray-500">
-    <p>Hai, apa kalian ingin mencoba kuliner serabi khas ngampin ambarawa? Mampir ke tempat kami ya, bisa dicoba kualitas serabi kami.</p>
+    <p>{{ .Site.Params.description_serabi }}</p>
   </div>
   <div class="w-full mt-8">
     <h2 class="text-center w-full border border-solid border-white leading-[0]">
@@ -17,6 +17,14 @@
     </h2>
     <div class="w-fit m-auto">
     {{ partial "post/sosmed.html" . }}
+    </div>
+  </div>
+  <div class="w-full mt-8">
+    <h2 class="text-center w-full border border-solid border-white leading-[0]">
+      <span class="bg-main-1 px-3"> Contact </span>
+    </h2>
+    <div class="w-fit m-auto">
+    {{ partial "post/contact.html" . }}
     </div>
   </div>
 </div>

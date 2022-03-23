@@ -50,6 +50,7 @@ name = "imenu"
 url = "/#Menu"
 weight = 5
 
+# sosmed serabi -----------------------------
 [[sosmed]]
 identifier = "fb"
 name = "@serabikocorbuyuni"
@@ -66,18 +67,31 @@ name = "@serabikocorbuyuni"
 url = "twitter.com/serabibuyuni"
 weight = 3
 
+# contact serabi -----------------------------
+[[contact]]
+identifier = "tlp"
+name = "+628-1325-269068"
+url = "https://wa.me/message/M3B4KVEFVVTYJ1"
+weight = 1
+[[contact]]
+identifier = "gmail"
+name = "bicor@gmail.com"
+url = "mailto:bicor@gmail.com"
+weight = 2
+
+# sosmed muryp -----------------------------
 [[sosmed2]]
 identifier = "fb"
 name = "@alifprihantoro"
-url = "facebook.com/serabikocorbuyuni"
+url = "facebook.com/alifprihantoro"
 weight = 1
 [[sosmed2]]
 identifier = "ig"
 name = "@alifprihantoro"
-url = "instagram.com/serabikocorbuyuni"
+url = "instagram.com/alifprihantoro"
 weight = 2
 [[sosmed2]]
 identifier = "tw"
 name = "@alifprihantoro"
-url = "twitter.com/serabibuyuni"
+url = "twitter.com/alifprihantoro"
 weight = 3

@@ -1,4 +1,4 @@
-post :
+nost :
 - [ ] Contact
 - [X] follow
 - [ ] next prev
