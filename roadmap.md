@@ -1,9 +1,9 @@
 nost :
-- [ ] Contact
+- [X] Contact
 - [X] follow
-- [ ] next prev
+- [X] next prev
 - [X] disqus comment
-- [ ] penulis
+- [X] penulis
 
 content :
 - [ ] about :
