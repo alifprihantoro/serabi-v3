@@ -4,6 +4,7 @@ nost :
 - [X] next prev
 - [X] disqus comment
 - [X] penulis
+- [ ] menus serabi diganti di _index.md
 
 content :
 - [ ] about :
